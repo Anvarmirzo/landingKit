@@ -10,6 +10,7 @@ let path = {
         js: project_folder + "/js/",
         img: project_folder + "/img/",
         fonts: project_folder + "/fonts/",
+        plugins: project_folder + "/plugins/",
     },
     src: {
         html: [source_folder + "/*.html", "!" + source_folder + "/_*.html"],
@@ -17,6 +18,7 @@ let path = {
         js: source_folder + "/js/script.js",
         img: source_folder + "/img/**/*.{jpg,png,svg,gif,ico,webp}",
         fonts: source_folder + "/fonts/*",
+        plugins: source_folder + "/plugins/**/*",
     },
     watch: {
         html: source_folder + "/**/*.html",
@@ -147,6 +149,12 @@ function fonts() {
         .pipe(dest(path.build.fonts))
 }
 
+function plugins() {
+    return src(path.src.plugins)
+        .pipe(dest(path.build.plugins))
+        .pipe(browsersync.stream())
+}
+
 gulp.task('otf2ttf', function () {
     return src([source_folder + '/fonts/*.otf'])
         .pipe(fonter({
@@ -204,10 +212,11 @@ function clean() {
     return del(path.clean);
 }
 
-let build = gulp.series(clean, gulp.parallel(js, css, html, images, fonts), fontsStyle);
+let build = gulp.series(clean, gulp.parallel(js, css, html, images, fonts, plugins), fontsStyle);
 let watch = gulp.parallel(build, watchFiles, browserSync);
 
 exports.fontsStyle = fontsStyle;
+exports.plugins = plugins;
 exports.fonts = fonts;
 exports.images = images;
 exports.js = js;
