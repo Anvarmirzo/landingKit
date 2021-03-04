@@ -1,0 +1,9 @@
+.main-nav {
+    .nav-link--color {
+        color: $nav-link-color;
+    }
+
+    &--p {
+        padding: 28px 62px !important;
+    }
+}
