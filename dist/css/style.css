@@ -384,6 +384,7 @@ template {
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 a {
@@ -415,6 +416,10 @@ img {
   margin-bottom: 31px;
 }
 
+.mt-232 {
+  margin-top: 232px;
+}
+
 .pt-86 {
   padding-top: 86px;
 }
@@ -438,6 +443,10 @@ img {
 
 .p-48 {
   padding: 48px;
+}
+
+.opacity-7 {
+  opacity: 0.7;
 }
 
 .btn-linear {
@@ -556,4 +565,8 @@ img {
   line-height: 114%;
   color: #FFFFFF;
   opacity: 0.7;
+}
+
+.footer-mute__link {
+  color: #D1D1D2;
 }
