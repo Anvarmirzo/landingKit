@@ -423,6 +423,11 @@ img {
   padding: 28px 62px !important;
 }
 
+.demo-1-swiper-container {
+  width: 100%;
+  height: auto;
+}
+
 .page-section__title {
   font-family: 'Inter';
   font-size: 56px;

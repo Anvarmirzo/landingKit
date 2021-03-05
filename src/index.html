@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="plugins/bootstrap-icons/font/bootstrap-icons.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="plugins/swiper/swiper-bundle.min.css" />
     <!-- Custom styles -->
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -100,10 +102,32 @@
                 </div>
             </div>
             <div class="page-section-full-image pt-169 text-center">
-                <img src="img/push-img.jpg" alt="...">
+
+                <!-- Slider main container -->
+                <div class="swiper-container demo-1-swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="img/push-img.jpg" alt="..."></div>
+                        <div class="swiper-slide"><img src="img/push-img.jpg" alt="..."></div>
+                        <div class="swiper-slide"><img src="img/push-img.jpg" alt="..."></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
             </div>
         </div>
     </header>
+
+    <!-- Swiper Bundle JS -->
+    <script src="plugins/swiper/swiper-bundle.min.js"></script>
     <!-- Custom scripts -->
     <script src="js/script.js"></script>
 </body>
