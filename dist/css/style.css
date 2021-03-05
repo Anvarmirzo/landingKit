@@ -382,6 +382,14 @@ template {
   display: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: 'Inter';
 }
@@ -399,6 +407,14 @@ img {
   margin-left: 82px;
 }
 
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-31 {
+  margin-bottom: 31px;
+}
+
 .pt-86 {
   padding-top: 86px;
 }
@@ -409,6 +425,19 @@ img {
 
 .pt-169 {
   padding-top: 169px;
+}
+
+.pb-81 {
+  padding-bottom: 81px;
+}
+
+.py-160 {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.p-48 {
+  padding: 48px;
 }
 
 .btn-linear {
@@ -428,11 +457,18 @@ img {
   height: auto;
 }
 
-.page-section__title {
+.page-h1__title {
   font-family: 'Inter';
   font-size: 56px;
   line-height: 129%;
   color: #000000;
+  margin: 0;
+}
+
+.page-section__title {
+  font-family: 'Work Sans';
+  font-size: 48px;
+  line-height: 56px;
 }
 
 .page-section__subtitle {
@@ -462,4 +498,62 @@ img {
 .demo-1-header__subtitle--fs {
   font-size: 24px;
   font-family: 'Inter';
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.bg--blue {
+  background-color: #2945FF;
+}
+
+.advantage-card {
+  background-color: #2D46EB;
+  min-height: 526px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border: none;
+}
+
+.advantage-card__title {
+  font-family: 'Work Sans';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.advantage-card__subtitle {
+  font-family: 'Work Sans';
+  font-size: 14px;
+  line-height: 171%;
+  color: #F8F8F8;
+}
+
+.footer {
+  background-color: #2D2F30;
+  color: #FFFFFF;
+}
+
+.footer-menu__title {
+  font-family: 'Work Sans';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.footer li {
+  margin-bottom: 24px;
+}
+
+.footer li a {
+  font-family: ' Work Sans';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 114%;
+  color: #FFFFFF;
+  opacity: 0.7;
 }

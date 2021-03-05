@@ -1,0 +1,22 @@
+.advantage-card {
+    background-color: $card-bg;
+    min-height: 526px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: none;
+
+    &__title {
+        font-family: 'Work Sans';
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: $white-color;
+    }
+
+    &__subtitle {
+        font-family: 'Work Sans';
+        font-size: 14px;
+        line-height: 171%;
+        color: #F8F8F8;
+    }
+}
