@@ -513,6 +513,14 @@ img {
   font-size: 18px;
 }
 
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
 .bg--blue {
   background-color: #2945FF;
 }
@@ -569,4 +577,39 @@ img {
 
 .footer-mute__link {
   color: #D1D1D2;
+}
+
+.footer-connect input {
+  width: 100%;
+  background-color: transparent;
+  font-family: 'Work Sans';
+  font-size: 16px;
+  line-height: 175%;
+  color: #F8F8F8;
+  border: none;
+  border-bottom: 1px solid #F8F8F8;
+  padding: 7px 28px 7px 0;
+}
+
+.footer-connect__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: none;
+  color: #FFFFFF;
 }
