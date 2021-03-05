@@ -383,7 +383,7 @@ template {
 }
 
 body {
-  font-family: 'Inter' !important;
+  font-family: 'Inter';
 }
 
 * {
@@ -399,12 +399,20 @@ img {
   margin-left: 82px;
 }
 
-.btn-linear {
-  padding: 16px 40px !important;
+.pt-86 {
+  padding-top: 86px;
 }
 
-.demo-1-header__subtitle--fs {
-  font-size: 24px;
+.pt-160 {
+  padding-top: 160px;
+}
+
+.pt-169 {
+  padding-top: 169px;
+}
+
+.btn-linear {
+  padding: 16px 40px !important;
 }
 
 .main-nav .nav-link--color {
@@ -417,19 +425,36 @@ img {
 
 .page-section__title {
   font-family: 'Inter';
-  font-weight: bold;
   font-size: 56px;
   line-height: 129%;
   color: #000000;
 }
 
 .page-section__subtitle {
-  line-height: 160%;
-  letter-spacing: -0.03em;
-  color: rgba(0, 0, 0, 0.8);
+  font-family: 'Work Sans';
+  font-size: 16px;
+  line-height: 175%;
+  color: #1A1A1F;
 }
 
 .demo-1-header {
   padding-top: 93px;
   padding-bottom: 86px;
+}
+
+.pushing__span {
+  font-family: 'Work Sans';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1A1A1F;
+  opacity: 0.6;
+  margin-bottom: 12px;
+}
+
+.demo-1-header__subtitle--fs {
+  font-size: 24px;
+  font-family: 'Inter';
 }
