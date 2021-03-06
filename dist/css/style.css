@@ -510,6 +510,10 @@ img {
   right: 17px;
 }
 
+.demo-1-swiper-container .swiper-button-disabled {
+  opacity: 0.3;
+}
+
 .page-h1__title {
   font-family: 'Inter', sans-serif;
   font-size: 56px;
