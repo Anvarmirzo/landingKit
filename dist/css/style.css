@@ -392,7 +392,7 @@ a {
 }
 
 body {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
 }
 
 * {
@@ -445,6 +445,18 @@ img {
   padding: 48px;
 }
 
+.h-2 {
+  height: 2px;
+}
+
+.w-350 {
+  width: 350px;
+}
+
+.w-112 {
+  width: 112px;
+}
+
 .opacity-7 {
   opacity: 0.7;
 }
@@ -466,8 +478,40 @@ img {
   height: auto;
 }
 
+.demo-1-swiper-container .swiper-pagination-current {
+  position: absolute;
+  right: 136px;
+}
+
+.demo-1-swiper-container .swiper-pagination-total {
+  position: absolute;
+  right: 0;
+}
+
+.demo-1-swiper-container .demo-1-arrows {
+  top: -34px;
+  left: 0;
+  background: #FFFFFF;
+  z-index: 11;
+  width: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.demo-1-swiper-container .demo-1-swiper-scrollbar {
+  top: -23px;
+  right: 17px;
+}
+
 .page-h1__title {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 56px;
   line-height: 129%;
   color: #000000;
@@ -475,13 +519,13 @@ img {
 }
 
 .page-section__title {
-  font-family: 'Work Sans';
+  font-family: 'Work Sans', sans-serif;
   font-size: 48px;
   line-height: 56px;
 }
 
 .page-section__subtitle {
-  font-family: 'Work Sans';
+  font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   line-height: 175%;
   color: #1A1A1F;
@@ -493,7 +537,7 @@ img {
 }
 
 .pushing__span {
-  font-family: 'Work Sans';
+  font-family: 'Work Sans', sans-serif;
   font-weight: 600;
   font-size: 12px;
   line-height: 117%;
@@ -506,7 +550,7 @@ img {
 
 .demo-1-header__subtitle--fs {
   font-size: 24px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
 }
 
 .fs-18 {
@@ -534,7 +578,7 @@ img {
 }
 
 .advantage-card__title {
-  font-family: 'Work Sans';
+  font-family: 'Work Sans', sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 140%;
@@ -542,7 +586,7 @@ img {
 }
 
 .advantage-card__subtitle {
-  font-family: 'Work Sans';
+  font-family: 'Work Sans', sans-serif;
   font-size: 14px;
   line-height: 171%;
   color: #F8F8F8;
@@ -554,7 +598,7 @@ img {
 }
 
 .footer-menu__title {
-  font-family: 'Work Sans';
+  font-family: 'Work Sans', sans-serif;
   font-weight: 600;
   font-size: 12px;
   line-height: 117%;
@@ -567,7 +611,7 @@ img {
 }
 
 .footer li a {
-  font-family: ' Work Sans';
+  font-family: ' Work Sans', sans-serif;
   font-weight: 600;
   font-size: 14px;
   line-height: 114%;
@@ -580,7 +624,7 @@ img {
 }
 
 .footer-connect__title {
-  font-family: 'Work Sans';
+  font-family: 'Work Sans', sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 140%;
@@ -597,35 +641,35 @@ img {
 }
 
 .footer-connect input::-webkit-input-placeholder {
-  font-family: 'Work Sans';
+  font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   line-height: 175%;
   color: #F8F8F8;
 }
 
 .footer-connect input::-moz-placeholder {
-  font-family: 'Work Sans';
+  font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   line-height: 175%;
   color: #F8F8F8;
 }
 
 .footer-connect input:-ms-input-placeholder {
-  font-family: 'Work Sans';
+  font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   line-height: 175%;
   color: #F8F8F8;
 }
 
 .footer-connect input::-ms-input-placeholder {
-  font-family: 'Work Sans';
+  font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   line-height: 175%;
   color: #F8F8F8;
 }
 
 .footer-connect input::placeholder {
-  font-family: 'Work Sans';
+  font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   line-height: 175%;
   color: #F8F8F8;

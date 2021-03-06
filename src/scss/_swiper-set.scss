@@ -1,4 +1,30 @@
 .demo-1-swiper-container {
     width: 100%;
     height: auto;
+
+    .swiper-pagination-current {
+        position: absolute;
+        right: 136px;
+    }
+
+    .swiper-pagination-total {
+        position: absolute;
+        right: 0;
+    }
+
+    .demo-1-arrows {
+        top: -34px;
+        left: 0;
+        background: #FFFFFF;
+        z-index: 11;
+        width: 72px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .demo-1-swiper-scrollbar {
+        top: -23px;
+        right: 17px;
+    }
 }

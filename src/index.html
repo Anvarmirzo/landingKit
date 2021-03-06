@@ -12,8 +12,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="plugins/bootstrap-icons/font/bootstrap-icons.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
     <!-- Swiper CSS -->
@@ -79,7 +77,7 @@
                 </div>
             </div>
             <div class="page-section-full-image pt-86 text-center">
-                <img src="img/sec-img.jpg" alt="...">
+                <img class="w-100" src="img/sec-img.jpg" alt="...">
             </div>
             <div class="row pt-160">
                 <div class="col-lg-6">
@@ -105,21 +103,38 @@
                 <!-- Slider main container -->
                 <div class="swiper-container demo-1-swiper-container">
                     <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
+                    <div class="swiper-wrapper mb-5">
                         <!-- Slides -->
-                        <div class="swiper-slide"><img src="img/push-img.jpg" alt="..."></div>
-                        <div class="swiper-slide"><img src="img/push-img.jpg" alt="..."></div>
-                        <div class="swiper-slide"><img src="img/push-img.jpg" alt="..."></div>
+                        <div class="swiper-slide"><img class="w-100" src="img/push-img.jpg" alt="..."></div>
+                        <div class="swiper-slide"><img class="w-100" src="img/push-img.jpg" alt="..."></div>
+                        <div class="swiper-slide"><img class="w-100" src="img/push-img.jpg" alt="..."></div>
                     </div>
-                    <!-- If we need pagination -->
-                    <div class="swiper-pagination"></div>
-
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-
-                    <!-- If we need scrollbar -->
-                    <div class="swiper-scrollbar"></div>
+                    <!-- Slider main controls -->
+                    <div class="position-relative w-350">
+                        <!-- Navigation buttons -->
+                        <div class="demo-1-arrows position-absolute demo-1-swiper-arrows">
+                            <div class="demo-1-button-prev d-inline-block"><svg width="23" height="10"
+                                    viewbox="0 0 23 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.20026 5L4.87016 2V5V8L1.20026 5Z" fill="#1A1A1F" />
+                                    <path d="M22.2003 5H1.20026M1.20026 5L4.87016 2V8L1.20026 5Z" stroke="#1A1A1F"
+                                        stroke-width="1.5" stroke-linecap="square" />
+                                </svg>
+                            </div>
+                            <div class="demo-1-button-next d-inline-block"><svg width="24" height="10"
+                                    viewbox="0 0 24 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22 5L18.3301 2L18.3301 5L18.3301 8L22 5Z" fill="#1A1A1F" />
+                                    <path d="M0.999999 5L22 5M22 5L18.3301 2L18.3301 8L22 5Z" stroke="#1A1A1F"
+                                        stroke-width="1.5" stroke-linecap="square" />
+                                </svg>
+                            </div>
+                        </div>
+                        <!-- Pagination -->
+                        <div class="swiper-pagination text-start"></div>
+                        <!-- Scrollbar -->
+                        <div
+                            class="swiper-scrollbar h-2 d-inline-block position-absolute w-112 demo-1-swiper-scrollbar">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

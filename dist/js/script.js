@@ -22,20 +22,21 @@ document.querySelector('body').classList.add('no-webp');
 
 var swiper = new Swiper('.demo-1-swiper-container', {
   // Optional parameters
-  loop: true,
-  // If we need pagination
+  spaceBetween: 30,
+  // Pagination
   pagination: {
     el: '.swiper-pagination',
     type: 'fraction'
   },
   // Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev'
+    nextEl: '.demo-1-button-next',
+    prevEl: '.demo-1-button-prev'
   },
-  // And if we need scrollbar
+  // Scrollbar
   scrollbar: {
-    el: '.swiper-scrollbar'
+    el: '.swiper-scrollbar',
+    draggable: true
   }
 });
 ;

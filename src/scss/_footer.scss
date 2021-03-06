@@ -3,7 +3,7 @@
     color: $footer-color;
 
     &-menu__title {
-        font-family: 'Work Sans';
+        font-family: 'Work Sans', sans-serif;
         font-weight: 600;
         font-size: 12px;
         line-height: 117%;
@@ -15,7 +15,7 @@
         margin-bottom: 24px;
 
         a {
-            font-family: ' Work Sans';
+            font-family: ' Work Sans', sans-serif;
             font-weight: 600;
             font-size: 14px;
             line-height: 114%;
@@ -30,7 +30,7 @@
 
     &-connect {
         &__title {
-            font-family: 'Work Sans';
+            font-family: 'Work Sans', sans-serif;
             font-weight: 600;
             font-size: 20px;
             line-height: 140%;
@@ -46,7 +46,7 @@
             color: $input-color;
 
             &::placeholder {
-                font-family: 'Work Sans';
+                font-family: 'Work Sans', sans-serif;
                 font-size: 16px;
                 line-height: 175%;
                 color: $input-color;
