@@ -18,6 +18,8 @@ document.querySelector('body').classList.add('no-webp');
 }
 });*/
 ;
+/* Swiper-slider in demo-1-page */
+
 var swiper = new Swiper('.demo-1-swiper-container', {
   // Optional parameters
   loop: true,
@@ -37,3 +39,6 @@ var swiper = new Swiper('.demo-1-swiper-container', {
   }
 });
 ;
+/* Using feather-icon */
+
+feather.replace();

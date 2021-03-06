@@ -1,3 +1,4 @@
+/* Swiper-slider in demo-1-page */
 const swiper = new Swiper('.demo-1-swiper-container', {
     // Optional parameters
     loop: true,
